@@ -48,7 +48,7 @@ public class Pipeline {
 
     private static void imparative() {
         for (Double x : Mydata) {
-            System.out.println("" + SubtractTen(Square(Addone(x))));
+            System.out.println( SubtractTen(Square(Addone(x))));
         }
     }
 
